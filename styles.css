@@ -31,14 +31,14 @@ body {
 }
 
 .introduccion h1 {
-    color: #007bff;
+    color: #78b9ff;
     font-size: 2rem;
     margin-bottom: 10px;
     text-align: center;
 }
 
 .introduccion h3 {
-    color: #28a745;
+    color: #6c757d;
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
@@ -99,11 +99,12 @@ textarea {
     box-sizing: border-box;
 }
 
-input[type="submit"] {
+
+.botones {
     width: 100%;
     margin-bottom: 10px;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #7947e69e;
     border: none;
     border-radius: 5px;
     color: white;
@@ -114,5 +115,5 @@ input[type="submit"] {
 
 
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #7947e6;
 }

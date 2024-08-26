@@ -8,13 +8,36 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    padding: 0;
-    padding-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: space-evenly;
 
+}
+
+.navbar{
+    background-color:#7947e6a3;
+    padding: 10px 0;
+}
+.navbar ul {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: start;
+}
+
+.navbar ul li {
+    margin:0px;
+    padding-right: 5px;
+    align-items:start;
+}
+
+.navbar ul li a {
+    color: white; 
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
 }
 
 .introduccion {
@@ -69,7 +92,7 @@ form {
     border-radius: 10px;
     justify-self: left;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 98%;
+    width: 95%;
     height: fit-content;
 }
 

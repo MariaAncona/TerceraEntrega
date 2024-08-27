@@ -97,9 +97,17 @@ form {
     height: fit-content;
 }
 
-#formulario {
+#contactForm {
     align-self: center;
     margin: 50px;
+}
+
+#enviado {
+    display: none;
+    color: rgb(64, 66, 64);
+    font-weight: bold;
+    text-align: center;
+    background-color: cornflowerblue;
 }
 
 h2 {
@@ -119,7 +127,7 @@ label {
 input[type="text"],
 input[type="number"],
 input[type="email"],
-input[type="message"],
+input[type="tel"],
 select,
 textarea {
     width: 100%;
@@ -150,10 +158,10 @@ textarea {
     background-color:#7947e648;
     color: white;
     font-size: 10px;
-    padding: 10px 0;
     display: flex;
     justify-content: center;
-    height: 5px;
+    height: 20px;
+    padding-top: 5px;
 }
 
 

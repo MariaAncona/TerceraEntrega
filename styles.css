@@ -16,7 +16,7 @@ body {
 }
 
 .navbar{
-    background-color:#7947e6a3;
+    background-color:#7947e648;
     padding: 10px 0;
 }
 .navbar ul {
@@ -97,6 +97,11 @@ form {
     height: fit-content;
 }
 
+#formulario {
+    align-self: center;
+    margin: 50px;
+}
+
 h2 {
     text-align: center;
     color: #333333;
@@ -113,6 +118,8 @@ label {
 
 input[type="text"],
 input[type="number"],
+input[type="email"],
+input[type="message"],
 select,
 textarea {
     width: 100%;
@@ -139,7 +146,14 @@ textarea {
 }
 
 
-.footer p {
-    background-color:#7947e6a3;
+#footer {
+    background-color:#7947e648;
+    color: white;
+    font-size: 10px;
     padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    height: 5px;
 }
+
+

@@ -88,11 +88,12 @@ body {
 
 form {
     background-color: #ffffff;
+    margin: 10px, 10px, 10px, 10px;
     padding: 10px;
     border-radius: 10px;
-    justify-self: left;
+    justify-self: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 95%;
+    width: fit-content;
     height: fit-content;
 }
 
@@ -124,6 +125,7 @@ textarea {
 
 
 .botones {
+    align-items: center;
     width: 100%;
     margin-bottom: 10px;
     padding: 10px;
@@ -136,7 +138,3 @@ textarea {
     padding-bottom: 15px;
 }
 
-
-input[type="submit"]:hover {
-    background-color: #7947e6;
-}

@@ -12,6 +12,10 @@ document.getElementById('contactForm').addEventListener('submit', function(event
 
     document.getElementById('enviado').style.display = 'block';
 
+    setTimeout(function() {
+        document.getElementById('enviado').style.display = 'none';
+    }, 1500);
+
     document.getElementById('contactForm').reset();
         });
 
